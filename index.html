@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Inspo - Soft Retro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ENVELOPE -->
+  <div class="envelope-container">
+  <img src="envelope.png" class="pixel-envelope" alt="envelope">
+</div>
+
+  <!-- QUOTE POPUP -->
+  <div class="quote-popup" id="quotePopup">
+    <button class="close-popup-btn" id="closeBtn">×</button>
+    <div class="quote-card-popup">
+      <p class="quote-text-popup" id="quoteTextPopup">"Loading..."</p>
+      <p class="quote-author-popup" id="quoteAuthorPopup">— You</p>
+    </div>
+  </div>
+
+  <!-- MAIN APP -->
+  <div class="retro-bg">
+    <div class="deco deco-1">✿</div>
+    <div class="deco deco-2">☆</div>
+    <div class="deco deco-3">✿</div>
+    <div class="deco deco-4">☆</div>
+
+    <div class="main-container">
+      <div class="window window-title" id="windowTitle">
+        <div class="window-header header-purple">
+          <span class="title-text">daily inspo</span>
+          <span class="close-btn">×</span>
+        </div>
+        <div class="window-content">
+          <p class="big-text">Get inspired<br>every day 💜</p>
+        </div>
+      </div>
+
+      <div class="window window-quote" id="windowQuote">
+        <div class="window-header header-lavender">
+          <span class="title-text">quote</span>
+          <span class="close-btn">×</span>
+        </div>
+        <div class="window-content quote-content">
+          <p class="quote-text" id="quoteText">"loading..."</p>
+          <p class="quote-author" id="quoteAuthor">— you</p>
+        </div>
+      </div>
+
+      <div class="window window-categories" id="windowCategories">
+        <div class="window-header header-green">
+          <span class="title-text">category</span>
+          <span class="close-btn">×</span>
+        </div>
+        <div class="window-content">
+          <div class="categories" id="categoriesContainer"></div>
+        </div>
+      </div>
+
+      <div class="window window-buttons" id="windowButtons">
+        <div class="window-header header-pink">
+          <span class="title-text">actions</span>
+          <span class="close-btn">×</span>
+        </div>
+        <div class="window-content">
+          <div class="button-group">
+            <button id="newQuoteBtn" class="soft-btn btn-purple">new</button>
+            <button id="copyBtn" class="soft-btn btn-green">copy</button>
+            <button id="shareBtn" class="soft-btn btn-pink">share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-decoration">
+        <div class="pixel-star">🌟</div>
+      </div>
+    </div>
+
+    <div class="bottom-deco">
+      <span>✦ made with 💜 ✦</span>
+    </div>
+  </div>
+
+  <script src="envelope.js"></script>
+  <script src="script.js"></script>
+  <script src="drag.js"></script>
+</body>
+</html>
