@@ -45,9 +45,44 @@ const quotes = [
     author: "Chinese Proverb", 
     category: "wisdom" 
   },
+  // WISDOM quotes (add these)
+{ 
+  text: "The only true wisdom is in knowing you know nothing.", 
+  author: "Socrates", 
+  category: "wisdom" 
+},
+{ 
+  text: "Wisdom is not found in books alone.", 
+  author: "Unknown", 
+  category: "wisdom" 
+},
+
+// HAPPINESS quotes (add these)
+{ 
+  text: "Happiness is not something ready made. It comes from your own actions.", 
+  author: "Dalai Lama", 
+  category: "happiness" 
+},
+{ 
+  text: "The greatest happiness you can have is knowing that you don't necessarily require happiness.", 
+  author: "William Saroyan", 
+  category: "happiness" 
+},
+
+// LOVE quotes (add these)
+{ 
+  text: "Love is the only force capable of transforming an enemy into a friend.", 
+  author: "Martin Luther King Jr.", 
+  category: "love" 
+},
+{ 
+  text: "To love oneself is the beginning of a lifelong romance.", 
+  author: "Oscar Wilde", 
+  category: "love" 
+},
 ];
 
-const categories = ["all", "inspiration", "motivation", "success", "life", "wisdom"];
+const categories = ["all", "inspiration", "motivation", "success", "life", "wisdom", "happiness", "love"];
 
 // GET HTML ELEMENTS
 const quoteTextEl = document.getElementById("quoteText");
